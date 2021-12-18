@@ -1,0 +1,203 @@
+/*font-family: 'Lusitana', serif;
+/*<i class="fa fa-product-hunt" aria-hidden="true"></i>*/
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*header section css start from here*/
+
+a{
+	text-decoration: none;
+}
+
+.header{
+	width: 100%;
+	padding: 20px 0;
+}
+
+.container{
+	width: 1000px;
+	margin: auto;
+}
+.menu-left{
+	display: flex;
+}
+.menu-left{
+	margin-left: 20px;
+}
+
+
+.menu-left ul li a{
+	margin-left: 20px;
+	color: #8991a1;
+	font-size: 13px;
+	font-family: 'Jost', sans-serif;
+}
+.nav{ display: flex;
+	justify-content: space-between;
+
+ }
+
+.menu-item ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0px 10px;
+}
+.menu-right{
+	display: inline-flex;
+}
+.menu-right p{
+margin-right: 40px;
+font-size: 13px;
+font-family: 'Jost', sans-serif;
+color: #8991a1;
+}
+
+.menu-btn button{
+
+	background: #3e45ac;
+    color: white;
+    padding: 8px 8px;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Lusitana', serif;
+    font-weight: 600;
+    font-size: 11px;
+    margin-right: 20px;
+    cursor: pointer;
+   
+}
+
+/*register section css start from here*/
+
+.register{
+	width: 94%;
+	padding: 20px 0px;
+	background-color: #1a1938;
+	margin-left: 30px;
+
+
+
+}
+
+.reg-content button{
+	background: #3e45ac;
+    color: white;
+    padding: 8px 8px;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Lusitana', serif;
+    font-weight: 600;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.reg-content{
+	display: flex;
+	padding-left: 270px;
+	text-align: center;
+
+}
+
+.reg-content p{
+	color: #d6e3e4;
+	font-size: 13px;
+	font-weight: 600;
+	font-family: 'Jost', sans-serif;
+	margin-right: 40px;
+	margin-top: 4px;
+}
+.i-con{
+height: 15px;
+width: 15px;
+line-height: 15px;
+background: white;
+text-align: left;
+border-radius: 100%;
+text-align: center;
+margin-right: 20px;
+margin-top: 5px;
+}
+
+/*banner sextion css start from here*/
+
+.banner{
+	width: 100%;
+	margin-top: 70px;
+
+}
+
+.banner-content{
+	display: flex;
+}
+.banner-right{
+	margin-left: 40px;
+	margin-bottom: 25px;
+}
+
+.banner-right h1{
+	color: #323548;
+	font-family: 'Lusitana', serif;
+	font-weight: bold;
+	font-size: 65px;
+	letter-spacing: -4px;
+	margin-right: 50px;
+	line-height: 1.1;
+	margin-bottom: 20px;
+}
+
+.banner-right p{
+margin-right: 140px;
+font-size: 13px;
+font-family: 'Jost', sans-serif;
+color: #606486;
+}
+
+.form-box input{
+	padding: 8px 30px;
+	font-size: 12px;
+}
+
+
+.form-box{
+	display: flex;
+	margin-top: 20px;} 
+	
+.form-btn input{
+	margin-left: 5px;
+	background: #3e45ac;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 3px;
+  	border: none;
+    font-family: 'Lusitana', serif;
+    font-weight: 600;
+    font-size: 11px;
+    text-transform: uppercase;
+    cursor: pointer;
+}	
+
+/********* footer section cdd start*************/
+
+.footer{
+	display: flex;
+	padding-left: 465px;
+}
+.footer a{
+	margin-left: 5px;
+}
+
+.footer p{
+	margin-left: 40px;}
+
+
+.footer p{
+	font-size: 12px;
+	color: #323548;}
+
+.footer a{
+	font-size: 12px;}
